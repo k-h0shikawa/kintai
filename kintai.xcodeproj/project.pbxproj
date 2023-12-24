@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2979E97D2B2F1FB000B15AE9 /* DailyAttendanceEntryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2979E97C2B2F1FB000B15AE9 /* DailyAttendanceEntryViewModel.swift */; };
+		2979E97F2B2F21DE00B15AE9 /* TimeSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2979E97E2B2F21DE00B15AE9 /* TimeSlot.swift */; };
+		2979E98A2B31C0F700B15AE9 /* DailyAttendanceEntryUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2979E9892B31C0F700B15AE9 /* DailyAttendanceEntryUseCaseProtocol.swift */; };
+		2979E98C2B31C38000B15AE9 /* DailyAttendanceEntryUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2979E98B2B31C38000B15AE9 /* DailyAttendanceEntryUseCase.swift */; };
+		2979E9932B326A3400B15AE9 /* DailyAttendanceEntryGatewayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2979E9922B326A3400B15AE9 /* DailyAttendanceEntryGatewayProtocol.swift */; };
+		2979E9952B326A4200B15AE9 /* DailyAttendanceEntryGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2979E9942B326A4200B15AE9 /* DailyAttendanceEntryGateway.swift */; };
+		2989A5B82B331745002677BE /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2989A5B72B331745002677BE /* RealmSwift */; };
+		2989A5BA2B33174B002677BE /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 2989A5B92B33174B002677BE /* Realm */; };
+		2989A5C42B34600A002677BE /* DailyAttendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989A5C32B34600A002677BE /* DailyAttendance.swift */; };
+		2989A5C82B366694002677BE /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989A5C72B366694002677BE /* Case.swift */; };
+		2989A5D02B366FD4002677BE /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2989A5CF2B366FD3002677BE /* ProjectView.swift */; };
+		29D4858F2B3823BB008E23C4 /* DailyAttendanceEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D4858E2B3823BB008E23C4 /* DailyAttendanceEntryView.swift */; };
+		29D485922B3831B8008E23C4 /* ProjectUseCaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D485912B3831B8008E23C4 /* ProjectUseCaseProtocol.swift */; };
+		29D485942B383323008E23C4 /* ProjectUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D485932B383323008E23C4 /* ProjectUseCase.swift */; };
+		29D485962B38339E008E23C4 /* ProjectGatewayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D485952B38339E008E23C4 /* ProjectGatewayProtocol.swift */; };
+		29D485982B383426008E23C4 /* ProjectGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D485972B383426008E23C4 /* ProjectGateway.swift */; };
+		29D4859A2B3834CF008E23C4 /* ProjectCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D485992B3834CF008E23C4 /* ProjectCase.swift */; };
 		29FBF2752B29C6A500C9768E /* kintaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FBF2742B29C6A500C9768E /* kintaiApp.swift */; };
 		29FBF2772B29C6A500C9768E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FBF2762B29C6A500C9768E /* ContentView.swift */; };
 		29FBF2792B29C6A700C9768E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FBF2782B29C6A700C9768E /* Assets.xcassets */; };
@@ -34,6 +51,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2979E97C2B2F1FB000B15AE9 /* DailyAttendanceEntryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyAttendanceEntryViewModel.swift; sourceTree = "<group>"; };
+		2979E97E2B2F21DE00B15AE9 /* TimeSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlot.swift; sourceTree = "<group>"; };
+		2979E9892B31C0F700B15AE9 /* DailyAttendanceEntryUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyAttendanceEntryUseCaseProtocol.swift; sourceTree = "<group>"; };
+		2979E98B2B31C38000B15AE9 /* DailyAttendanceEntryUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyAttendanceEntryUseCase.swift; sourceTree = "<group>"; };
+		2979E9922B326A3400B15AE9 /* DailyAttendanceEntryGatewayProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyAttendanceEntryGatewayProtocol.swift; sourceTree = "<group>"; };
+		2979E9942B326A4200B15AE9 /* DailyAttendanceEntryGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyAttendanceEntryGateway.swift; sourceTree = "<group>"; };
+		2989A5C32B34600A002677BE /* DailyAttendance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyAttendance.swift; sourceTree = "<group>"; };
+		2989A5C72B366694002677BE /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
+		2989A5CF2B366FD3002677BE /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		29D4858E2B3823BB008E23C4 /* DailyAttendanceEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyAttendanceEntryView.swift; sourceTree = "<group>"; };
+		29D485912B3831B8008E23C4 /* ProjectUseCaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectUseCaseProtocol.swift; sourceTree = "<group>"; };
+		29D485932B383323008E23C4 /* ProjectUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectUseCase.swift; sourceTree = "<group>"; };
+		29D485952B38339E008E23C4 /* ProjectGatewayProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectGatewayProtocol.swift; sourceTree = "<group>"; };
+		29D485972B383426008E23C4 /* ProjectGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectGateway.swift; sourceTree = "<group>"; };
+		29D485992B3834CF008E23C4 /* ProjectCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCase.swift; sourceTree = "<group>"; };
 		29FBF2712B29C6A500C9768E /* kintai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kintai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FBF2742B29C6A500C9768E /* kintaiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kintaiApp.swift; sourceTree = "<group>"; };
 		29FBF2762B29C6A500C9768E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2989A5BA2B33174B002677BE /* Realm in Frameworks */,
+				2989A5B82B331745002677BE /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +106,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2979E9832B2F245900B15AE9 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				2979E97E2B2F21DE00B15AE9 /* TimeSlot.swift */,
+				29D485992B3834CF008E23C4 /* ProjectCase.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		2979E9852B2F250F00B15AE9 /* DailyAttendanceEntry */ = {
+			isa = PBXGroup;
+			children = (
+				2979E9882B2F2AB900B15AE9 /* Presentation */,
+				2979E9862B2F280D00B15AE9 /* Domain */,
+			);
+			path = DailyAttendanceEntry;
+			sourceTree = "<group>";
+		};
+		2979E9862B2F280D00B15AE9 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2979E9892B31C0F700B15AE9 /* DailyAttendanceEntryUseCaseProtocol.swift */,
+				2979E98B2B31C38000B15AE9 /* DailyAttendanceEntryUseCase.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		2979E9882B2F2AB900B15AE9 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2979E97C2B2F1FB000B15AE9 /* DailyAttendanceEntryViewModel.swift */,
+				29D4858E2B3823BB008E23C4 /* DailyAttendanceEntryView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2979E98D2B32674500B15AE9 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				2979E9922B326A3400B15AE9 /* DailyAttendanceEntryGatewayProtocol.swift */,
+				2979E9942B326A4200B15AE9 /* DailyAttendanceEntryGateway.swift */,
+				29D485952B38339E008E23C4 /* ProjectGatewayProtocol.swift */,
+				29D485972B383426008E23C4 /* ProjectGateway.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		2989A5B62B331745002677BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2989A5CA2B3668DF002677BE /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				2989A5C32B34600A002677BE /* DailyAttendance.swift */,
+				2989A5C72B366694002677BE /* Case.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		2989A5CB2B366F9D002677BE /* Projact */ = {
+			isa = PBXGroup;
+			children = (
+				29D485902B38318E008E23C4 /* Domain */,
+				2989A5CE2B366FBE002677BE /* Presentation */,
+			);
+			path = Projact;
+			sourceTree = "<group>";
+		};
+		2989A5CE2B366FBE002677BE /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				2989A5CF2B366FD3002677BE /* ProjectView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		29D485902B38318E008E23C4 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				29D485912B3831B8008E23C4 /* ProjectUseCaseProtocol.swift */,
+				29D485932B383323008E23C4 /* ProjectUseCase.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 		29FBF2682B29C6A500C9768E = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +202,7 @@
 				29FBF2852B29C6A800C9768E /* kintaiTests */,
 				29FBF28F2B29C6A800C9768E /* kintaiUITests */,
 				29FBF2722B29C6A500C9768E /* Products */,
+				2989A5B62B331745002677BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +219,11 @@
 		29FBF2732B29C6A500C9768E /* kintai */ = {
 			isa = PBXGroup;
 			children = (
+				2989A5CA2B3668DF002677BE /* Realm */,
+				2989A5CB2B366F9D002677BE /* Projact */,
+				2979E98D2B32674500B15AE9 /* Infrastructure */,
+				2979E9852B2F250F00B15AE9 /* DailyAttendanceEntry */,
+				2979E9832B2F245900B15AE9 /* Struct */,
 				29FBF2742B29C6A500C9768E /* kintaiApp.swift */,
 				29FBF2762B29C6A500C9768E /* ContentView.swift */,
 				29FBF2782B29C6A700C9768E /* Assets.xcassets */,
@@ -145,6 +274,10 @@
 			dependencies = (
 			);
 			name = kintai;
+			packageProductDependencies = (
+				2989A5B72B331745002677BE /* RealmSwift */,
+				2989A5B92B33174B002677BE /* Realm */,
+			);
 			productName = kintai;
 			productReference = 29FBF2712B29C6A500C9768E /* kintai.app */;
 			productType = "com.apple.product-type.application";
@@ -193,7 +326,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					29FBF2702B29C6A500C9768E = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -217,6 +350,9 @@
 				Base,
 			);
 			mainGroup = 29FBF2682B29C6A500C9768E;
+			packageReferences = (
+				2979E9962B33107100B15AE9 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 29FBF2722B29C6A500C9768E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,7 +396,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				29FBF2772B29C6A500C9768E /* ContentView.swift in Sources */,
+				2989A5D02B366FD4002677BE /* ProjectView.swift in Sources */,
+				2979E9932B326A3400B15AE9 /* DailyAttendanceEntryGatewayProtocol.swift in Sources */,
+				2979E97D2B2F1FB000B15AE9 /* DailyAttendanceEntryViewModel.swift in Sources */,
+				29D4858F2B3823BB008E23C4 /* DailyAttendanceEntryView.swift in Sources */,
+				2979E97F2B2F21DE00B15AE9 /* TimeSlot.swift in Sources */,
+				2979E98C2B31C38000B15AE9 /* DailyAttendanceEntryUseCase.swift in Sources */,
+				29D485962B38339E008E23C4 /* ProjectGatewayProtocol.swift in Sources */,
+				29D485982B383426008E23C4 /* ProjectGateway.swift in Sources */,
+				2989A5C42B34600A002677BE /* DailyAttendance.swift in Sources */,
+				2989A5C82B366694002677BE /* Case.swift in Sources */,
+				29D485942B383323008E23C4 /* ProjectUseCase.swift in Sources */,
+				2979E98A2B31C0F700B15AE9 /* DailyAttendanceEntryUseCaseProtocol.swift in Sources */,
+				2979E9952B326A4200B15AE9 /* DailyAttendanceEntryGateway.swift in Sources */,
+				29D4859A2B3834CF008E23C4 /* ProjectCase.swift in Sources */,
 				29FBF2752B29C6A500C9768E /* kintaiApp.swift in Sources */,
+				29D485922B3831B8008E23C4 /* ProjectUseCaseProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +482,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -394,6 +546,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -424,6 +577,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"kintai/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -449,6 +603,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"kintai/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -472,6 +627,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.6;
 				MARKETING_VERSION = 1.0;
@@ -490,6 +646,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.6;
 				MARKETING_VERSION = 1.0;
@@ -507,6 +664,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = domain.kintaiUITests;
@@ -523,6 +681,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = domain.kintaiUITests;
@@ -573,6 +732,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2979E9962B33107100B15AE9 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.45.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2989A5B72B331745002677BE /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2979E9962B33107100B15AE9 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		2989A5B92B33174B002677BE /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2979E9962B33107100B15AE9 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 29FBF2692B29C6A500C9768E /* Project object */;
 }

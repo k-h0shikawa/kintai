@@ -1,24 +1,50 @@
-//
-//  ContentView.swift
-//  kintai
-//
-//  Created by hoshikawa on 2023/12/13.
-//
-
+// ContentView.swift
 import SwiftUI
 
 struct ContentView: View {
+    
+    let gateway = DailyAttendanceEntryGateway()
+    let useCase: DailyAttendanceEntryUseCaseProtocol
+    
+    let projectGateway = ProjectGateway()
+    let projectUseCase : ProjectUseCaseProtocol
+    
+    @State private var entryView = true
+
+    @ObservedObject var viewModel: DailyAttendanceEntryViewModel
+    
+    init(){
+        useCase = DailyAttendanceEntryUseCase(gateway: gateway)
+        projectUseCase = ProjectUseCase(gateway: projectGateway)
+        
+        viewModel = DailyAttendanceEntryViewModel(
+            useCase: useCase,
+            gateway: gateway,
+            projectUseCase: projectUseCase,
+            projectGateway: projectGateway
+        )
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack{
+            if entryView {
+                DailyAttendanceEntryView()
+            }else{
+                ProjectView()
+            }
+            
+            Button("画面切り替え"){
+                entryView.toggle()
+            }
         }
-        .padding()
+         
     }
 }
 
-#Preview {
-    ContentView()
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
+
