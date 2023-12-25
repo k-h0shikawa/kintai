@@ -32,7 +32,6 @@ struct ContentView: View {
             }else{
                 ProjectView()
             }
-            
             Button("画面切り替え"){
                 entryView.toggle()
             }

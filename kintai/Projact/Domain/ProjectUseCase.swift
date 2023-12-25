@@ -16,7 +16,7 @@ struct ProjectUseCase: ProjectUseCaseProtocol{
         self.gateway = gateway
     }
     
-    func RecordProject(project: String, statusType: Int){
-        
+    func registorProject(projectName: String){
+        gateway.registorProject(projectName: projectName)
     }
 }

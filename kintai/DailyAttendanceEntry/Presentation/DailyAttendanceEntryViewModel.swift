@@ -9,9 +9,10 @@ class DailyAttendanceEntryViewModel: ObservableObject {
         [TimeSlot(hour: hour, minute: 0), TimeSlot(hour: hour, minute: 30)]
     }
     @Published var currentDate = Date()
+    // @Published var entry = true;
     @Published var entry = true;
-    // @Published var entry = false;
     
+    @Published var projectName = ""
     
     private let useCase : DailyAttendanceEntryUseCaseProtocol
     private let gateway : DailyAttendanceEntryGatewayProtocol
@@ -49,6 +50,10 @@ class DailyAttendanceEntryViewModel: ObservableObject {
         print(currentDate)
         let x = timeSlots
         useCase.RecordJobDescription(timeSlots: x, targetDate: currentDate)
+    }
+    
+    func registorProject(){
+        projectUseCase.registorProject(projectName: projectName)
     }
     
 }

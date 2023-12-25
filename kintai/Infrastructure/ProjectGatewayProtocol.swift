@@ -7,5 +7,5 @@
 
 import Foundation
 protocol ProjectGatewayProtocol{
-    func RecordProject(project: String, statusType: Int)
+    func registorProject(projectName: String)
 }

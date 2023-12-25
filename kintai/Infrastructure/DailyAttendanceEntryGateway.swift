@@ -4,7 +4,7 @@ import RealmSwift
 struct DailyAttendanceEntryGateway: DailyAttendanceEntryGatewayProtocol{
     
     func RecordJobDescription(timeSlots: [TimeSlot], targetDate: Date){
-        let config = Realm.Configuration(schemaVersion: 1) // #1
+        let config = Realm.Configuration(schemaVersion: 2) // #1
 
         Realm.Configuration.defaultConfiguration = config // #2
         let realm: Realm = try! Realm()

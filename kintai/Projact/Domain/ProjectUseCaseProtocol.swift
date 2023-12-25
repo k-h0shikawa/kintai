@@ -8,5 +8,5 @@
 import Foundation
 
 protocol ProjectUseCaseProtocol{
-    func RecordProject(project: String, statusType: Int)
+    func registorProject(projectName: String)
 }
